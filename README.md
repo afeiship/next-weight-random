@@ -42,6 +42,9 @@ console.log(
 // 0.778 0.135 0.087
 ```
 
+## resources
+- https://stackoverflow.com/questions/8435183/generate-a-weighted-random-number
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-weight-random/blob/master/LICENSE.txt).
 
