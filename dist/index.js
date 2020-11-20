@@ -3,7 +3,7 @@
  * description: Random has weight.
  * homepage: https://github.com/afeiship/next-weight-random
  * version: 1.0.0
- * date: 2020-11-20 22:41:54
+ * date: 2020-11-20 22:43:21
  * license: MIT
  */
 
