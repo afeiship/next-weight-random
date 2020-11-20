@@ -8,12 +8,12 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-weight-random
+npm install -S @jswork/next-weight-random
 ```
 
 ## usage
 ```js
-import '@feizheng/next-weight-random';
+import '@jswork/next-weight-random';
 
 const results = {};
 const rand = nx.weightRandom({
@@ -48,14 +48,14 @@ console.log(
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-weight-random/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-weight-random
-[version-url]: https://npmjs.org/package/@feizheng/next-weight-random
+[version-image]: https://img.shields.io/npm/v/@jswork/next-weight-random
+[version-url]: https://npmjs.org/package/@jswork/next-weight-random
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-weight-random
+[license-image]: https://img.shields.io/npm/l/@jswork/next-weight-random
 [license-url]: https://github.com/afeiship/next-weight-random/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-weight-random
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-weight-random
 [size-url]: https://github.com/afeiship/next-weight-random/blob/master/dist/next-weight-random.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-weight-random
-[download-url]: https://www.npmjs.com/package/@feizheng/next-weight-random
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-weight-random
+[download-url]: https://www.npmjs.com/package/@jswork/next-weight-random

@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-weight-random
+ * name: @jswork/next-weight-random
  * description: Random has weight.
  * homepage: https://github.com/afeiship/next-weight-random
  * version: 1.0.0
- * date: 2020-07-02T05:48:06.183Z
+ * date: 2020-11-20 22:41:54
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.weightRandom = function (inSpec) {
     var i, j, table = [];
@@ -22,7 +22,6 @@
 
     var size = Math.pow(10, Math.min(precision, 3));
 
-
     for (i in inSpec) {
       // The constant 10 below should be computed based on the
       // weights in the spec for a correct and optimal table size.
@@ -33,9 +32,7 @@
     }
 
     return function () {
-      return table[
-        Math.floor(Math.random() * table.length)
-      ];
+      return table[Math.floor(Math.random() * table.length)];
     };
   };
 
@@ -43,5 +40,3 @@
     module.exports = nx.weightRandom;
   }
 })();
-
-//# sourceMappingURL=next-weight-random.js.map
