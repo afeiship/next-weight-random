@@ -16,11 +16,20 @@ npm install -S @jswork/next-weight-random
 import '@jswork/next-weight-random';
 
 const results = {};
-const rand = nx.weightRandom({
+
+const params1 = [
+  { index: 0, value: 0.75 },
+  { index: 1, value: 0.15 },
+  { index: 2, value: 0.1 }
+];
+
+const params2 = {
   0: 0.75,
   1: 0.15,
   2: 0.1
-});
+}
+
+const rand = nx.weightRandom(params1);
 
 for (let i = 0; i < 1000; i++) {
   const val = rand1();
