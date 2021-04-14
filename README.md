@@ -17,17 +17,12 @@ import '@jswork/next-weight-random';
 
 const results = {};
 
-const params1 = [
-  { index: 0, value: 0.75 },
-  { index: 1, value: 0.15 },
-  { index: 2, value: 0.1 }
-];
-
+const params1 = [ 0.75, 0.15, 0.1 ];
 const params2 = {
   0: 0.75,
   1: 0.15,
   2: 0.1
-}
+};
 
 const rand = nx.weightRandom(params1);
 

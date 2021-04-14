@@ -24,11 +24,7 @@
 
   test('nx.weightRandom with array params', function () {
     var results = {};
-    var rand1 = nx.weightRandom([
-      { index: 0, value: 0.75 },
-      { index: 1, value: 0.15 },
-      { index: 2, value: 0.1 }
-    ]);
+    var rand1 = nx.weightRandom([0.75, 0.15, 0.1]);
 
     for (let i = 0; i < 1000; i++) {
       var val = rand1();

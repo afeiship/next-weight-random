@@ -4,8 +4,8 @@
   var normailzeRatio = function (inSpec) {
     var result = {};
     if (!Array.isArray(inSpec)) return inSpec;
-    inSpec.forEach(function (item) {
-      result[item.index] = item.value;
+    inSpec.forEach(function (item, index) {
+      result[index] = item;
     });
     return result;
   };
