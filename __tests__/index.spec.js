@@ -2,6 +2,23 @@
   require('../src');
 
   describe('api.basic test', () => {
+    test('only [1]', function () {
+      var results = {};
+      var rand1 = nx.weightRandom({
+        0: 1,
+        1: 0
+      });
+      var size = 1000;
+
+      for (let i = 0; i < size; i++) {
+        var val = rand1();
+        results[val] = results[val] || [];
+        results[val].push(true);
+      }
+
+      expect(results[0].length).toBe(size);
+    });
+
     test('nx.weightRandom with object params', function () {
       var results = {};
       var rand1 = nx.weightRandom({

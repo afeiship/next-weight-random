@@ -18,7 +18,7 @@
     var spec = normailzeRatio(inSpec);
 
     nx.forIn(spec, function (_, value) {
-      var val = String(value).split('.')[1];
+      var val = value.toFixed(4).split('.')[1];
       precision = Math.max(precision, val.length);
     });
 
